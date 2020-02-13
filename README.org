@@ -27,9 +27,13 @@ After these libs has been set properly, type =make= to build them all. ~~
 
 ** use new lib:
 1,install lapack,add LDLIBS :=-lgfortran in projector makefile  
-2,https://github.com/xianyi/OpenBLAS  
+
+2,https://github.com/xianyi/OpenBLAS
+  
 3,https://github.com/PetterS/SuiteSparse  
+
 build them two,then copy the lib into the ./external folder  
+
 
 
 * Try A Shakedown Run
