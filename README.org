@@ -17,7 +17,7 @@ and mesh data.
 
 
 * Compile
-** unused method **
+** unused method
 ~~ You need CHOLMOD (http://www.cise.ufl.edu/research/sparse/cholmod/) and UMFPACK
 (http://www.cise.ufl.edu/research/sparse/umfpack/) to compile it, drop the
 header files and libs to the ./external folder if you've compiled them on your
@@ -25,11 +25,11 @@ own, or just try the precompiled version in this repository.
 
 After these libs has been set properly, type =make= to build them all. ~~
 
-** use new lib: **
-1,install lapack
-2,https://github.com/xianyi/OpenBLAS
-3,https://github.com/PetterS/SuiteSparse
-build them two,then copy the lib into the ./external folder
+** use new lib:
+1,install lapack,add LDLIBS :=-lgfortran in projector makefile  
+2,https://github.com/xianyi/OpenBLAS  
+3,https://github.com/PetterS/SuiteSparse  
+build them two,then copy the lib into the ./external folder  
 
 
 * Try A Shakedown Run
